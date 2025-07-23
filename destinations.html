@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="destinations.css">
+    <title>Destinations-Wildpath Expeditions</title>
+    <style>
+        
+        .price-section {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333; 
+        }
+        .currency-select {
+            margin-left: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .book-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            background-color: #f4bc07; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        .book-button:hover {
+            background-color: #d1a106; 
+        }
+        .d-class {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            padding: 15px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+            border-radius: 8px; 
+            margin-bottom: 20px; 
+        }
+        .d-class img.home {
+             width: 100%; 
+             height: auto; 
+             border-radius: 5px; 
+             margin-bottom: 10px; 
+        }
+         .d-class p.scenery {
+             font-size: 1.2em; 
+             font-weight: bold;
+             margin-bottom: 5px;
+         }
+         .d-class p.deta {
+             font-size: 0.9em; 
+             color: #555; 
+             margin-bottom: 10px;
+             flex-grow: 1; 
+         }
+
+    </style>
+</head>
+<body>
+    <div class="navigation-bar">
+        <div id="head">
+            <img id="icon" src="icon.jpeg" alt="Company Icon">
+        </div>
+        <div class="introduction">
+            <div>
+                <p class="Company-name">WILDPATH EXPEDITIONS</p>
+            </div>
+            <div id="services">
+                <a href="home.html" class="service">HOME</a>
+                <a href="activities.html" class="service">SERVICES</a>
+                <a href="destinations.html" class="service">DESTINATIONS</a>
+                <a href="contacts.php" class="service">CONTACT US</a> <a href="bookings.php" class="service">BOOKINGS</a> </div>
+        </div>
+    </div>
+    <div class="container">
+        <video autoplay muted loop>
+            <source src="images/destinations.mp4" type="video/mp4">
+        </video>
+        <div class="text">
+            <p style="margin-bottom: 0; color: rgb(244, 188, 7);">Wildpath Expeditions</p>
+            <p style="margin: 40px; text-align: center;">Destinations</p>
+        </div>
+    </div>
+
+    <p class="service-description">
+        We have various tourist centres and other interesting places that take off your stress within the different regions of the country ranging from physical features, wildlife, vegetations to cultures and local foods
+    </p>
+
+    <div>
+        <button class="east">Eastern Region</button>
+    </div>
+    <div class="destination-section">
+        <div class="d-class" data-region="Eastern Region" data-destination="Sipi Falls" data-prices='{"UGX": 100000, "USD": 30, "EUR": 25}'>
+            <img class="home" src="images/east01.jpg" alt="Sipi Falls">
+            <p class="scenery">Sipi Falls</p>
+            <p class="deta">The river that originates from the melting ice from the peak of mountain Elgon</p>
+            <div class="price-section">
+                Price: <span class="price">100000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Eastern Region" data-destination="The New Jinja Road Bridge" data-prices='{"UGX": 50000, "USD": 15, "EUR": 12}'>
+            <img class="home" src="images/east02.jpg" alt="The New Jinja Road Bridge">
+            <p class="scenery">The New Jinja Road Bridge</p>
+            <p class="deta">Beautiful scenes of the falling waters of River Nile from Lake Victoria that are Eye Catching</p>
+             <div class="price-section">
+                Price: <span class="price">50000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Eastern Region" data-destination="Mountain Elgon slopes" data-prices='{"UGX": 150000, "USD": 45, "EUR": 40}'>
+            <img class="home" src="images/east03.jpg" alt="Mountain Elgon slopes">
+            <p class="scenery">Mountain Elgon slopes</p>
+            <p class="deta">The ever Green slopes with Coffee plantations that make the slopes and mountain climbing</p>
+             <div class="price-section">
+                Price: <span class="price">150000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Eastern Region" data-destination="Camps Along the slopes" data-prices='{"UGX": 200000, "USD": 60, "EUR": 55}'>
+            <img class="home" src="images/east04.jpg" alt="Camps Along the slopes">
+            <p class="scenery">Camps Along the slopes</p>
+            <p class="deta">Beautiful eye camping sites that give a view of the snow caped ranges </p>
+             <div class="price-section">
+                Price: <span class="price">200000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+    </div>
+    <div>
+        <button class="east">Western Region</button>
+    </div>
+    <div class="destination-section">
+        <div class="d-class" data-region="Western Region" data-destination="Road Rotation" data-prices='{"UGX": 80000, "USD": 25, "EUR": 20}'>
+            <img class="home" src="images/west01.jpg" alt="Road Rotation">
+            <p class="scenery">Road Rotation</p>
+            <p class="deta">Roads beautifully made that rotate highlands of Kasese that give a wonderful scenary</p>
+             <div class="price-section">
+                Price: <span class="price">80000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Western Region" data-destination="Ragged Terran Rwenzori" data-prices='{"UGX": 250000, "USD": 75, "EUR": 70}'>
+            <img class="home" src="images/west02.jpg" alt="Ragged Terran Rwenzori">
+            <p class="scenery">Ragged Terran Rwenzori</p>
+            <p class="deta">The slopes of Mountain Rwenzori Have steep and ragged slopes that run from Top to Bottom</p>
+             <div class="price-section">
+                Price: <span class="price">250000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Western Region" data-destination="Snow Capped Scenaries" data-prices='{"UGX": 300000, "USD": 90, "EUR": 85}'>
+            <img class="home" src="images/west03.jpg" alt="Snow Capped Scenaries">
+            <p class="scenery"> Snow Capped Scenaries</p>
+            <p class="deta">The peak is snowcapped has a good view for areas around the mountain and for skatting</p>
+             <div class="price-section">
+                Price: <span class="price">300000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Western Region" data-destination="River Mpologoma" data-prices='{"UGX": 70000, "USD": 20, "EUR": 18}'>
+            <img class="home" src="images/west04.jpg" alt="River Mpologoma">
+            <p class="scenery">River Mpologoma</p>
+            <p class="deta">Beautiful Scenary of the river that originates from the melting snow </p>
+             <div class="price-section">
+                Price: <span class="price">70000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+    </div>
+    <div>
+        <button class="east">Central Region</button>
+    </div>
+    <div class="destination-section">
+        <div class="d-class" data-region="Central Region" data-destination="Lake Victoria" data-prices='{"UGX": 60000, "USD": 18, "EUR": 15}'>
+            <img class="home" src="images/central01.jpg" alt="Lake Victoria">
+            <p class="scenery">Lake Victoria</p>
+            <p class="deta">Fresh Water body with plenty of islands and shores with beaches for swimming and beach soccer</p>
+             <div class="price-section">
+                Price: <span class="price">60000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Central Region" data-destination="Buganda Palace" data-prices='{"UGX": 40000, "USD": 12, "EUR": 10}'>
+            <img class="home" src="images/central02.jpg" alt="Buganda Palace">
+            <p class="scenery">Buganda Palace</p>
+            <p class="deta">The Cultural rich place with welcoming people and diversity of cultures that are interesting to know about</p>
+             <div class="price-section">
+                Price: <span class="price">40000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Central Region" data-destination="Uganda Wildlife Center" data-prices='{"UGX": 120000, "USD": 35, "EUR": 30}'>
+            <img class="home" src="images/central03.jpg" alt="Uganda Wildlife Center">
+            <p class="scenery"> Uganda Wildlife Center</p>
+            <p class="deta">Gazatted Wildlife animals and birds of different spieces all in one place</p>
+             <div class="price-section">
+                Price: <span class="price">120000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Central Region" data-destination="Uganda Museum" data-prices='{"UGX": 30000, "USD": 10, "EUR": 8}'>
+            <img class="home" src="images/central04.jpg" alt="Uganda Museum">
+            <p class="scenery">Uganda Museum</p>
+            <p class="deta">The History of Uganda all in one place that makes you appreciate the journey of Uganda</p>
+             <div class="price-section">
+                Price: <span class="price">30000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+    </div>
+    <div>
+        <button class="east">Northern Region</button>
+    </div>
+    <div class="destination-section">
+        <div class="d-class" data-region="Northern Region" data-destination="Game Parks" data-prices='{"UGX": 200000, "USD": 60, "EUR": 55}'>
+            <img class="home" src="images/north01.jpg" alt="Game Parks">
+            <p class="scenery">Game Parks</p>
+            <p class="deta">The Kidepo National Park full of animals like zebra among others</p>
+             <div class="price-section">
+                Price: <span class="price">200000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Northern Region" data-destination="Vegetation" data-prices='{"UGX": 50000, "USD": 15, "EUR": 12}'>
+            <img class="home" src="images/north02.jpg" alt="Vegetation">
+            <p class="scenery">Vegetation</p>
+            <p class="deta">The Semi desert climate that gave rise to scanty vegetation for Normadic Pastoralism</p>
+             <div class="price-section">
+                Price: <span class="price">50000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Northern Region" data-destination="Bird Sanctuaries" data-prices='{"UGX": 100000, "USD": 30, "EUR": 25}'>
+            <img class="home" src="images/north03.jpg" alt="Bird Sanctuaries">
+            <p class="scenery">Bird Sanctuaries</p>
+            <p class="deta">Collection of different species of birds in one location like kidepo Sanctuary</p>
+             <div class="price-section">
+                Price: <span class="price">100000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+        <div class="d-class" data-region="Northern Region" data-destination="Karuma Falls" data-prices='{"UGX": 90000, "USD": 28, "EUR": 23}'>
+            <img class="home" src="images/north04.jpg" alt="Karuma Falls">
+            <p class="scenery">Karuma Falls</p>
+            <p class="deta">Terif and High speed waters flowing through the think forests and rocky surfaces</p>
+             <div class="price-section">
+                Price: <span class="price">90000</span> <span class="currency">UGX</span> per day
+                <select class="currency-select">
+                    <option value="UGX">UGX</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <button class="book-button">Book Now</button>
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+            <div class="left">
+                <p class="footer-intro">More Information</p>
+                <ul>
+                    <li class="info">About Us</li>
+                    <li class="info"> About Uganda</li>
+                    <li class="info">Special Places</li>
+                    <li class="info"> Travel Tips</li>
+                </ul>
+            </div>
+            <div class="middle">
+                <p class="footer-intro">Partners</p>
+                <a href="https://www.iata.org/">
+                    <img class="partner" src="images/partner01.png" alt="IATA Partner">
+                </a>
+                <a href="https://www.tugata.com/">
+                    <img class="partner" src="images/partner02.png" alt="TUGATA Partner">
+                </a>
+            </div>
+            <div class="right">
+                <p class="footer-intro">Contacts</p>
+                <p>Located In Kampala Uganda Mabirizi Complex Shop L39</p>
+                <p>P.O.Box 139 Kampala Uganda</p>
+                <p>Tel: +256 301 567 123</p>
+                <p>Email: wildpathexpeditions2@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    <p style="text-align: center; ">Copyright &copy; 2025, Wildpath Expeditions. All Rights Reserved. Designed by: Group 8</p>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all destination blocks
+            const destinationBlocks = document.querySelectorAll('.d-class');
+
+            destinationBlocks.forEach(block => {
+                const currencySelect = block.querySelector('.currency-select');
+                const priceSpan = block.querySelector('.price');
+                const currencySpan = block.querySelector('.currency');
+                const bookButton = block.querySelector('.book-button');
+
+                // Parse prices from the data attribute
+                const prices = JSON.parse(block.dataset.prices);
+
+                // Add event listener for currency change
+                currencySelect.addEventListener('change', (event) => {
+                    const selectedCurrency = event.target.value;
+                    // Update the displayed price and currency
+                    priceSpan.textContent = prices[selectedCurrency];
+                    currencySpan.textContent = selectedCurrency;
+                });
+
+                // Add event listener for the Book Now button
+                bookButton.addEventListener('click', () => {
+                    const destination = block.dataset.destination;
+                    const region = block.dataset.region;
+                    const selectedCurrency = currencySelect.value;
+                    const selectedPrice = prices[selectedCurrency];
+
+                    // Construct the URL with query parameters
+                    const bookingUrl = `bookings.php?destination=${encodeURIComponent(destination)}&region=${encodeURIComponent(region)}&price=${encodeURIComponent(selectedPrice)}&currency=${encodeURIComponent(selectedCurrency)}`;
+
+                    // Navigate to the booking page
+                    window.location.href = bookingUrl;
+                });
+            });
+        });
+    </script>
+</body>
+</html>
